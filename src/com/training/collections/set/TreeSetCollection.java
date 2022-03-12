@@ -6,9 +6,9 @@ import java.util.stream.Collectors;
 public class TreeSetCollection {
 
     /**
-     * LinkedHashSet class represents the LinkedList implementation of Set Interface.
-     * It extends the HashSet class and implements Set interface. Like HashSet, It also contains unique elements.
-     * It maintains the insertion order and permits null elements
+     * TreeSet class implements the Set interface that uses a tree for storage.
+     * Like HashSet, TreeSet also contains unique elements. However, the access and retrieval time of TreeSet is quite fast.
+     * The elements in TreeSet stored in ascending order.
     **/
     public static void main(String[] args) {
         TreeSet<String> names = new TreeSet<>();
